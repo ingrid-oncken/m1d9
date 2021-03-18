@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>BINGO!!!</h1>
+
+    <div>
+      <div id="boardOfNumbers"></div>
+    </div>
+
+    <script>
+        let numbers = []; // Array of all the numbers on the bingo
+
+        //function to introduce the numbers on [numbers]
+        //or should it be:
+
+        // or should be
+        // const number = document.createElement("h3"); //this should be label for thw numbers
+        // const numbersOfBingo = i +1;
+
+        window.onload = function () {
+        const numbersOnBingo = function () {
+            for (let i = 0; i < 76, i++ ) {
+                numbers[i] = []; //here I want to creat a spot for each number from the
+                                 // game and assign them to an empty array
+
+                const child = document.createElement("div"); //this should creat an empty cell number
+                child.className = "bingoNumber"; //to be assigned in CSS later
+            }
+        }
+      }
+    </script>
+  </body>
+</html>
